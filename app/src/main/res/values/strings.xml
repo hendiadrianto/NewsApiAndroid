@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">News Api Hendi</string>
+    <string name="api_key" translatable="false">c03628dada0d4b57a469be15bee8fd7a</string>
+    <string name="base_url" translatable="false">https://newsapi.org/</string>
+</resources>

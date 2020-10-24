@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/id_l_categori"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        app:layout_constraintTop_toTopOf="@id/id_list_categori"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/id_list_categori"
+        app:layout_constraintStart_toStartOf="@id/id_list_categori"
+        android:id="@+id/id_view2_list_categori"
+        android:layout_width="0dp"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/id_list_categori"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Ayamayam"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        style="@style/textview"
+        android:textSize="@dimen/font_large"
+        android:paddingStart="@dimen/margin_large"
+        android:paddingEnd="@dimen/margin_large"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layout_xxlarge"/>
+
+    <View
+        app:layout_constraintBottom_toBottomOf="@id/id_list_categori"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/id_list_categori"
+        app:layout_constraintStart_toStartOf="@id/id_list_categori"
+        android:id="@+id/id_view_list_categori"
+        android:layout_width="0dp"
+        android:layout_height="2dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

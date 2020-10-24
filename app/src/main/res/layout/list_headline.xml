@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/margin_small">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/id_list_photo"
+            android:layout_width="110dp"
+            android:background="@drawable/ic_photo"
+            android:layout_height="110dp"
+            android:scaleType="centerCrop" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_toEndOf="@id/id_list_photo"
+            android:layout_toRightOf="@id/id_list_photo">
+
+            <TextView
+                android:id="@+id/id_list_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:ellipsize="end"
+                android:hint="hhhhh"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_besar"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/id_list_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:ellipsize="end"
+                android:hint="hhhkjcbhjdvzldjivsjdvvscsacacacadscdacagthjjjjyjyjgyjdcscsdcsdcdsc,jijivjilsdjvslsvdjlsjvlsdjvldsvlsvldvnldsvnlvnlvndsklzvlkzdvnlzdnvzdklvnzdlkvnhh"
+                android:maxLines="2"
+                android:textSize="@dimen/font_kecil"
+                app:layout_constraintTop_toBottomOf="@+id/id_list_name" />
+
+            <TextView
+                android:id="@+id/id_list_source"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="Media.com"
+                android:textSize="@dimen/font_kecil"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/id_list_tgl"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent=".6" />
+
+            <TextView
+                android:id="@+id/id_list_tgl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="24-01-2020"
+                android:textSize="@dimen/font_kecil"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/id_list_source" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

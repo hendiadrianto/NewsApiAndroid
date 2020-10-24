@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_kecil">13sp</dimen>
+    <dimen name="font_sedang">15sp</dimen>
+    <dimen name="font_besar">17sp</dimen>
+
+    <dimen name="font_tittle">20sp</dimen>
+
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">12dp</dimen>
+    <dimen name="margin_xlarge">16dp</dimen>
+    <dimen name="margin_xxlarge">20dp</dimen>
+
+    <dimen name="font_small">11sp</dimen>
+    <dimen name="font_normal">13sp</dimen>
+    <dimen name="font_medium">15sp</dimen>
+    <dimen name="font_large">17sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_xxlarge">25sp</dimen>
+    <dimen name="font_xxxlarge">40sp</dimen>
+
+    <dimen name="layout_small">25dp</dimen>
+    <dimen name="layout_normal">30dp</dimen>
+    <dimen name="layout_medium">35dp</dimen>
+    <dimen name="layout_large">40dp</dimen>
+    <dimen name="layout_xlarge">45dp</dimen>
+    <dimen name="layout_xxlarge">50dp</dimen>
+</resources>
